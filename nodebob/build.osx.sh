@@ -7,7 +7,7 @@ mkdir -p $CUR_DIR/release.osx
 
 echo "Extractiong node-webkit..."
 rm -Rf $CUR_DIR/release.osx/nw
-unzip $CUR_DIR/buildTools/nw.osx/node-webkit-v0.8.5-osx-ia32.zip -d $CUR_DIR/release.osx/nw > /dev/null
+unzip $CUR_DIR/buildTools/nw.osx/node-webkit-v0.9.2-osx-ia32.zip -d $CUR_DIR/release.osx/nw > /dev/null
 echo "Creating bundle for osx..."
 rm -Rf $CUR_DIR/release.osx/app.app
 cp -R $CUR_DIR/release.osx/nw/node-webkit.app $CUR_DIR/release.osx/app.app
